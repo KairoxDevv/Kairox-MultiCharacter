@@ -1,0 +1,46 @@
+if Locales == nil then Locales = {} end
+
+Locales['fr'] = {
+    ['logo'] = "NICELIFERP",
+    ['char_deleted'] = "~g~Personnage supprimé.",
+    ['create_char'] = "CRÉER PERSONNAGE",
+    ['play'] = "JOUER",
+    ['delete'] = "SUPPRIMER",
+    ['delete_confirm'] = "SÛR ?",
+    ['deleting'] = "SUPPRESSION EN COURS...",
+    
+    ['category_identity'] = "IDENTITÉ",
+    ['category_genetics'] = "PARENTS",
+    ['category_face'] = "VISAGE",
+    ['category_appearance'] = "APPARENCE",
+    ['category_clothes'] = "VÊTEMENTS",
+    ['category_accessories'] = "ACCESSOIRES",
+    
+    ['category_title'] = "IDENTITÉ",
+    ['sub_title'] = "CRÉER VOTRE APPARENCE",
+    ['firstname'] = "PRÉNOM",
+    ['lastname'] = "NOM",
+    ['dob'] = "DATE DE NAISSANCE",
+    ['nationality'] = "NATIONALITÉ",
+    ['placeofbirth'] = "LIEU DE NAISSANCE",
+    ['tax_title'] = "🚕 CHOISISSEZ VOTRE ENTRÉE EN VILLE",
+    ['tax_new'] = "🚕 NOUVEAU EN VILLE (Trajet en Taxi)",
+    ['tax_old'] = "✈️ ANCIEN HABITANT (Apparition directe à l'Aéroport)",
+    ['sex_label'] = "SEXE",
+    ['sex_male'] = "HOMME",
+    ['sex_female'] = "FEMME",
+    ['height'] = "TAILLE (CM)",
+    -- Sliders
+    ['mom'] = 'MÈRE', ['dad'] = 'PÈRE', ['face_md_weight'] = 'RESSEMBLANCE VISAGE', ['skin_md_weight'] = 'COULEUR DE PEAU',
+    ['nose_1'] = 'LARGEUR NEZ', ['nose_2'] = 'HAUTEUR NEZ', ['nose_3'] = 'LONGUEUR NEZ', ['nose_4'] = 'HAUTEUR ARÊTE', ['nose_5'] = 'ABAISSEMENT POINTE', ['nose_6'] = 'TORSION ARÊTE',
+    ['eyebrows_5'] = 'HAUTEUR SOURCILS', ['eyebrows_6'] = 'PROFONDEUR SOURCILS', ['cheeks_1'] = 'HAUTEUR POMMETTES', ['cheeks_2'] = 'LARGEUR POMMETTES', ['cheeks_3'] = 'LARGEUR JOUES',
+    ['eye_squint'] = 'STRABISME', ['lip_thickness'] = 'ÉPAISSEUR LÈVRES', ['jaw_1'] = 'LARGEUR MÂCHOIRE', ['jaw_2'] = 'LONGUEUR MÂCHOIRE',
+    ['chin_1'] = 'HAUTEUR MENTON', ['chin_2'] = 'LONGUEUR MENTON', ['chin_3'] = 'LARGEUR MENTON', ['chin_4'] = 'TROU MENTON', ['neck_thickness'] = 'ÉPAISSEUR COU',
+    ['hair_1'] = 'CHEVEUX', ['hair_color_1'] = 'COULEUR CHEVEUX', ['hair_color_2'] = 'REFLETS', ['beard_1'] = 'BARBE', ['beard_2'] = 'OPACITÉ BARBE', ['beard_3'] = 'COULEUR BARBE',
+    ['eyebrows_1'] = 'SOURCILS', ['eyebrows_2'] = 'OPACITÉ SOURCILS', ['eyebrows_3'] = 'COULEUR SOURCILS', ['eye_color'] = 'YEUX', 
+    ['makeup_1'] = 'MAQUILLAGE', ['makeup_2'] = 'OPACITÉ MAQUILLAGE', ['makeup_3'] = 'COULEUR MAQUILLAGE', ['lipstick_1'] = 'ROUGE À LÈVRES', ['lipstick_2'] = 'OPACITÉ LÈVRES', ['lipstick_3'] = 'COULEUR LÈVRES',
+    ['complexion_1'] = 'TEINT', ['complexion_2'] = 'OPACITÉ TEINT', ['age_1'] = 'VIEILLISSEMENT', ['age_2'] = 'OPACITÉ ÂGE', ['blemishes_1'] = 'IMPERFECTIONS', ['blemishes_2'] = 'OPACITÉ IMPERFECTIONS',
+    ['chest_1'] = 'POILS TORSE', ['chest_2'] = 'OPACITÉ POILS', ['chest_3'] = 'COULEUR POILS',
+    ['tshirt_1'] = 'T-SHIRT', ['tshirt_2'] = 'COULEUR T-SHIRT', ['torso_1'] = 'VESTE', ['torso_2'] = 'COULEUR VESTE', ['arms'] = 'BRAS/GANTS', ['arms_2'] = 'VARIANTE BRAS', ['pants_1'] = 'PANTALON', ['pants_2'] = 'COULEUR PANTALON', ['shoes_1'] = 'CHAUSSURES', ['shoes_2'] = 'COULEUR CHAUSSURES',
+    ['helmet_1'] = 'CASQUES / CHAPEAUX', ['helmet_2'] = 'COULEUR CASQUES', ['mask_1'] = 'MASQUES', ['mask_2'] = 'COULEUR MASQUE', ['glasses_1'] = 'LUNETTES', ['glasses_2'] = 'COULEUR LUNETTES', ['chain_1'] = 'CHAÎNES', ['chain_2'] = 'COULEUR CHAÎNES', ['watches_1'] = 'MONTRES', ['watches_2'] = 'COULEUR MONTRES', ['bracelets_1'] = 'BRACELETS', ['bracelets_2'] = 'COULEUR BRACELETS', ['bags_1'] = 'SACS', ['bags_2'] = 'COULEUR SACS', ['ears_1'] = 'ACCESSOIRES OREILLES', ['ears_2'] = 'COULEUR OREILLES'
+}

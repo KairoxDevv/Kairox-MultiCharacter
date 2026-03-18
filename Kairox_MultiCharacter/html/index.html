@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>NiceLifeRP Identity</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="multichar-container" style="display: none;">
+        <div class="logo-title">NICELIFERP</div>
+        <div class="character-slots" id="slots-container"></div>
+        <div id="character-actions" style="display: none;">
+            <button class="play-btn" onclick="playSelected()"><i class="fas fa-play"></i> JOUER</button>
+            <button class="del-btn" onclick="deleteSelected()"><i class="fas fa-trash"></i> SUPPRIMER</button>
+        </div>
+    </div>
+
+    <div id="creation-container" style="display: none;">
+        <div class="left-panel">
+            <div class="header-text">
+                <span class="sub">CRÉER VOTRE APPARENCE</span>
+                <h1 id="category-title">IDENTITÉ</h1>
+            </div>
+
+            <form id="creation-form">
+                <div id="tab-identity" class="tab-content active">
+                    <div class="input-block"><label>PRÉNOM</label><input type="text" id="firstname" required></div>
+                    <div class="input-block"><label>NOM</label><input type="text" id="lastname" required></div>
+                    <div class="input-block"><label>DATE DE NAISSANCE</label><input type="date" id="dob" required></div>
+                    
+                    <div class="input-block"><label>NATIONALITÉ</label><input type="text" id="nationality" placeholder="Ex: Américaine" required></div>
+                    <div class="input-block"><label>LIEU DE NAISSANCE</label><input type="text" id="placeofbirth" placeholder="Ex: Los Santos" required></div>
+
+                    <div style="display: none;">
+                        <label>SPAWN SELECTION</label>
+                        <select id="background" required>
+                            <option value="old" selected>old</option>
+                        </select>
+                    </div>
+
+                    <div class="input-block">
+                        <label>SEXE</label>
+                        <select id="sex" onchange="updateGender()" required>
+                            <option value="0">HOMME</option>
+                            <option value="1">FEMME</option>
+                        </select>
+                    </div>
+                    <div class="input-block"><label>TAILLE (CM)</label><input type="number" id="height" min="120" max="220" value="180" required></div>
+                </div>
+
+                    <div id="tab-genetics" class="tab-content"></div>
+                    <div id="tab-face" class="tab-content"></div>
+                    <div id="tab-appearance" class="tab-content"></div>
+                    <div id="tab-clothes" class="tab-content"></div>
+                    <div id="tab-accessories" class="tab-content"></div>
+            </form>
+        </div>
+
+        <div class="right-panel">
+            <div class="camera-controls">
+                <button type="button" onclick="changeCam('head')"><i class="fas fa-user-circle"></i></button>
+                <button type="button" onclick="changeCam('torso')"><i class="fas fa-tshirt"></i></button>
+                <button type="button" onclick="changeCam('legs')"><i class="fas fa-shoe-prints"></i></button>
+                <button type="button" onclick="changeCam('body')" class="active"><i class="fas fa-male"></i></button>
+            </div>
+            <div class="separator"></div>
+            <div class="nav-buttons">
+                <button type="button" class="nav-btn active" onclick="switchTab('identity', 'identity', 'body')"><i class="fas fa-id-card"></i></button>
+                <button type="button" class="nav-btn" onclick="switchTab('genetics', 'genetics', 'head')"><i class="fas fa-user-friends"></i></button>
+                <button type="button" class="nav-btn" onclick="switchTab('face', 'face', 'head')"><i class="fas fa-smile"></i></button>
+                <button type="button" class="nav-btn" onclick="switchTab('appearance', 'appearance', 'head')"><i class="fas fa-cut"></i></button>
+                <button type="button" class="nav-btn" onclick="switchTab('clothes', 'clothes', 'body')"><i class="fas fa-tshirt"></i></button>
+                <button type="button" class="nav-btn" onclick="switchTab('accessories', 'accessories', 'body')"><i class="fas fa-glasses"></i></button>
+            </div>
+            <div class="action-buttons">
+                <button type="button" class="rotate-btn" onclick="rotatePed(30)"><i class="fas fa-sync-alt"></i></button>
+                <button type="submit" form="creation-form" class="save-btn"><i class="fas fa-check"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

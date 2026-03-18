@@ -1,0 +1,46 @@
+if Locales == nil then Locales = {} end
+
+Locales['en'] = {
+    ['logo'] = "NICELIFERP",
+    ['char_deleted'] = "Character deleted.",
+    ['create_char'] = "CREATE CHARACTER",
+    ['play'] = "PLAY",
+    ['delete'] = "DELETE",
+    ['delete_confirm'] = "SURE?",
+    ['deleting'] = "DELETING...",
+    
+    ['category_identity'] = "IDENTITY",
+    ['category_genetics'] = "PARENTS",
+    ['category_face'] = "FACE",
+    ['category_appearance'] = "APPEARANCE",
+    ['category_clothes'] = "CLOTHES",
+    ['category_accessories'] = "ACCESSORIES",
+    
+    ['category_title'] = "IDENTITY",
+    ['sub_title'] = "CREATE YOUR LOOK",
+    ['firstname'] = "FIRSTNAME",
+    ['lastname'] = "LASTNAME",
+    ['dob'] = "DATE OF BIRTH",
+    ['nationality'] = "NATIONALITY",
+    ['placeofbirth'] = "PLACE OF BIRTH",
+    ['tax_title'] = "🚕 CHOOSE YOUR ENTRY TO THE CITY",
+    ['tax_new'] = "🚕 NEW IN CITY (Taxi Trip)",
+    ['tax_old'] = "✈️ OLD INHABITANT (Spawn at Airport)",
+    ['sex_label'] = "SEX",
+    ['sex_male'] = "MALE",
+    ['sex_female'] = "FEMALE",
+    ['height'] = "HEIGHT (CM)",
+    -- Sliders
+    ['mom'] = 'MOTHER', ['dad'] = 'FATHER', ['face_md_weight'] = 'FACE RESEMBLANCE', ['skin_md_weight'] = 'SKIN TONE',
+    ['nose_1'] = 'NOSE WIDTH', ['nose_2'] = 'NOSE HEIGHT', ['nose_3'] = 'NOSE LENGTH', ['nose_4'] = 'BRIDGE HEIGHT', ['nose_5'] = 'TIP LOWERING', ['nose_6'] = 'BRIDGE TWIST',
+    ['eyebrows_5'] = 'EYEBROW HEIGHT', ['eyebrows_6'] = 'EYEBROW DEPTH', ['cheeks_1'] = 'CHEEKBONE HEIGHT', ['cheeks_2'] = 'CHEEKBONE WIDTH', ['cheeks_3'] = 'CHEEKS WIDTH',
+    ['eye_squint'] = 'EYE SQUINT', ['lip_thickness'] = 'LIP THICKNESS', ['jaw_1'] = 'JAW BONE WIDTH', ['jaw_2'] = 'JAW BONE LENGTH',
+    ['chin_1'] = 'CHIN HEIGHT', ['chin_2'] = 'CHIN LENGTH', ['chin_3'] = 'CHIN WIDTH', ['chin_4'] = 'CHIN HOLE', ['neck_thickness'] = 'NECK THICKNESS',
+    ['hair_1'] = 'HAIR', ['hair_color_1'] = 'HAIR COLOR', ['hair_color_2'] = 'HIGHLIGHTS', ['beard_1'] = 'BEARD', ['beard_2'] = 'BEARD OPACITY', ['beard_3'] = 'BEARD COLOR',
+    ['eyebrows_1'] = 'EYEBROWS', ['eyebrows_2'] = 'EYEBROWS OPACITY', ['eyebrows_3'] = 'EYEBROWS COLOR', ['eye_color'] = 'EYES', 
+    ['makeup_1'] = 'MAKEUP', ['makeup_2'] = 'MAKEUP OPACITY', ['makeup_3'] = 'MAKEUP COLOR', ['lipstick_1'] = 'LIPSTICK', ['lipstick_2'] = 'LIPSTICK OPACITY', ['lipstick_3'] = 'LIPSTICK COLOR',
+    ['complexion_1'] = 'COMPLEXION', ['complexion_2'] = 'COMPLEXION OPACITY', ['age_1'] = 'AGING', ['age_2'] = 'AGING OPACITY', ['blemishes_1'] = 'BLEMISHES', ['blemishes_2'] = 'BLEMISHES OPACITY',
+    ['chest_1'] = 'CHEST HAIR', ['chest_2'] = 'CHEST HAIR OPACITY', ['chest_3'] = 'CHEST HAIR COLOR',
+    ['tshirt_1'] = 'T-SHIRT', ['tshirt_2'] = 'T-SHIRT COLOR', ['torso_1'] = 'JACKET', ['torso_2'] = 'JACKET COLOR', ['arms'] = 'ARMS/GLOVES', ['arms_2'] = 'ARMS VARIANT', ['pants_1'] = 'PANTS', ['pants_2'] = 'PANTS COLOR', ['shoes_1'] = 'SHOES', ['shoes_2'] = 'SHOES COLOR',
+    ['helmet_1'] = 'HATS / HELMETS', ['helmet_2'] = 'HATS COLOR', ['mask_1'] = 'MASKS', ['mask_2'] = 'MASKS COLOR', ['glasses_1'] = 'GLASSES', ['glasses_2'] = 'GLASSES COLOR', ['chain_1'] = 'CHAINS', ['chain_2'] = 'CHAINS COLOR', ['watches_1'] = 'WATCHES', ['watches_2'] = 'WATCHES COLOR', ['bracelets_1'] = 'BRACELETS', ['bracelets_2'] = 'BRACELETS COLOR', ['bags_1'] = 'BAGS', ['bags_2'] = 'BAGS COLOR', ['ears_1'] = 'EAR ACCESSORIES', ['ears_2'] = 'EAR ACCESSORIES COLOR'
+}
